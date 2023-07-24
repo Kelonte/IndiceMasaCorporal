@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* transition:all 300ms ease-in-out; */
+}
+
+body{
+    background: linear-gradient(90deg,#80ffff,#ff80ff);
+    width: 100vw;
+}
+
+#portada{
+    background-color: #00000005;
+    color: dodgerblue;
+    display: flex;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4.5vw;
+}
+
+#calculos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2vW;
+    width: 400px;
+}
+
+#iconos{
+    /* background-color: red; */
+    display: flex;
+    margin-bottom: 1vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#hombre, #mujer{
+    width: 75px;
+    height: 150px;
+    /* margin: 0vw 2vw; */
+}
+
+#hombre:hover, #mujer:hover{
+    filter: brightness(1.2);
+}
+
+#peso, #altura{
+    width: 60%;
+    height: 7%;
+    /* font-size: 1.5vw; */
+    margin: 0vw 10vw 2vw;
+    border: 1px solid black;
+    padding-left: .5vw;
+}
+
+#calcular{
+    background-color: #ffe4c4;
+    color: #1e90ff;
+    width: 60%;
+    height: 10%;
+    /* font-size: 100%; */
+    margin: 1vw 10vw 2vw;
+    border: 1px solid black;
+    padding: .3vw;
+}
+
+#calcular:hover{
+    background-color: #ffe0b4;
+}
+
+#calcular:active{
+    background-color: #ffd5a1;
+}
+
+.label{
+    color: #1976d3;
+}
+
+#outputs{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#salida{
+    width: 80%;
+    margin-top: 2vw;
+}
+
+#retorno{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+    margin: 1vw;
+}
+
+h3{
+    margin: 1vw;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    /* width: 20vw; */
+}
